@@ -1,20 +1,18 @@
 @def title = "Schedule"
 
-The workshop will be held **in-person** on August 5th, 2022 in Eindhoven, Netherlands.
+The workshop will be held **in-person** on October 2022 in Tel-Aviv, Israel.
 
 # Tentative Workshop Schedule
 
 | Time | Description |
 |-----------|-----------|
-| 9:00 -- 9:15 am | Welcome & Best Paper Awards | 
-| 9:15 -- 10:00 am | Spotlight Presentations |
-| 10:00 -- 11:00 am | Poster session I & Coffee Break |
-| 11:00 -- 12:30 pm | Invited Talks |
-| 12:30 -- 2:00 pm | Lunch Break |
-| 2:00 -- 3:30 pm | Invited Talks |
-| 3:30 -- 4:15 pm | Spotlight Presentations |
-| 4:15 -- 5:30 pm | Poster session II & Coffee Break |
-| 5:30 -- 6:30 pm | Panel discussion and closing remarks |
+| 15 min | Welcome and introduction | 
+| 60 min | Invited talks (I + II) |
+| 15 min | Poster spotlights |
+| 60 min | Poster session |
+| 15 min | Coffee break |
+| 30 min | Invited talk III |
+| 45 min | Panel discussion and closing remarks |
 
 
 # Invited Talks
