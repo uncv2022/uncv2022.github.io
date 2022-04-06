@@ -40,7 +40,7 @@ We invite submissions on the following topics;
 See [call for papers](/cfp/) for submission instructions.
 
 # Schedule
-The workshop will be held **in-person** (virtual if needed) on August 5th, 2022 in Eindhoven, Netherlands.
+The workshop will be held **in-person** (virtual if needed) on October 2022 in Tel-Aviv, Israel.
 
 The tentative schedule can be found [here](/schedule/).
 
