@@ -1,0 +1,75 @@
+<div>
+
+<!-- Banner -->
+<div class="jumbotron jumbotron-fluid bg-dark banner">
+  
+  <div class="jumbotron-background">
+    <img src="{{ site.baseurl }}/assets/background.jpg" class="blur" />
+  </div>
+
+  <div class="container text-white">
+    <div class="page-heading">
+      <h1>{{ site.title }}</h1>
+      <hr class="small">
+      <span class="page-subheading">{{ site.description }}</span>
+    </div>
+  </div>
+</div>
+
+<!-- Navigation fixed-top  -->
+<nav class="navbar navbar-expand-md navbar-light compensate-for-scrollbar py-0">
+
+  <div class="container">
+    <button
+      class="navbar-toggler ml-auto"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav nav ml-auto">
+        {% for item in site.data.menu %}
+          {% assign class = nil %}
+          {% if page.url contains link.url %}
+            {% assign class = 'active' %}
+          {% endif %}
+          {% if item.disabled %}
+            {% assign class = 'disabled' %}
+          {% endif %}
+          {% if item.subfolderitems %}
+            <li class="nav-item dropdown {{ class }}">
+            <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" class="nav-link dropdown-toggle" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {% for subitem in item.subfolderitems %}
+              <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a>
+            {% endfor %}
+            </div>
+            </li>
+            {% else %}
+              <li class="nav-item {{ class }}">
+                {% if item.disabled %}
+                <a class="nav-link" "#">{{ item.title }}</a>
+                {% else %}
+                <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
+              </li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</div>
+
+
+<!-- Page content -->
+
+<div class="container-md">
+<div class="row">
+<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">

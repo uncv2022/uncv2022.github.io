@@ -1,0 +1,13 @@
+- title: About
+  url: /
+
+- title: Call for Papers
+  url: /cfp
+
+- title: Accepted Papers
+  url: /papers
+  disabled: true
+
+- title: Program
+  url: /program
+  disabled: true
