@@ -16,3 +16,51 @@ layout: default
 
 <!-- Content -->
 
+<h2>Speakers</h2>
+
+<div class="row justify-content-center people-widget text-center">
+
+{% for item in site.data.speakers  %}
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+  <a href="{{ item.url }}">
+  <div class="team-member">
+    <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar-x2 avatar-circle" alt="">
+    <h4>{{ item.name }}</h4>
+    <p class="text-muted">{{ item.affiliation }}</p>
+  </div>
+  </a>
+</div>
+
+{% endfor %}
+
+</div>
+
+<h2>Call for Papers</h2>
+
+
+
+<h2>Important Dates</h2>
+
+
+
+<h2>Organizers</h2>
+
+<div class="row justify-content-center people-widget text-center">
+
+{% for item in site.data.organizers  %}
+
+<div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+  <a href="{{ item.url }}">
+  <div class="team-member">
+    <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar avatar-circle" alt="">
+    <strong>{{ item.name }}</strong>
+    <p class="text-muted">{{ item.affiliation }}</p>
+  </div>
+  </a>
+</div>
+
+{% endfor %}
+
+</div>
+
