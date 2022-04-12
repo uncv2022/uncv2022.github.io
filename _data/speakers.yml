@@ -1,20 +1,16 @@
 - name: Yarin Gal
   url: http://www.cs.ox.ac.uk/people/yarin.gal/website/
   affiliation: University of Oxford, UK
-  title: ""
   img: yarin-gal.jpg
   abstract: TBA
   
 - name: Alex Kendall
   url: https://alexgkendall.com/
   affiliation: Wayve
-  title: ""
-  abstract: TBA
   img: alex-kendall.jpg
+  abstract: TBA
 
 - name: TBA
   url: #
   affiliation: ""
-  title: ""
   abstract: TBA
-  img: ""

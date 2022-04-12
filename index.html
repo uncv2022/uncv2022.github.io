@@ -25,7 +25,14 @@ layout: default
 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
   <a href="{{ item.url }}">
   <div class="team-member">
+
+    {% if item.img %}
     <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar-x2 avatar-circle" alt="">
+    {% else %}
+    <div class="avatar-x2 avatar-circle" style="background: #ddd;">
+      <i class="fa fa-user" style="font-size: 220px; color: #eee; margin-top:20px;"></i>
+    </div>
+    {% endif %}
     <h4>{{ item.name }}</h4>
     <p class="text-muted">{{ item.affiliation }}</p>
   </div>
