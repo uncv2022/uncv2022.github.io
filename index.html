@@ -38,29 +38,62 @@ layout: default
 
 <h2>Call for Papers</h2>
 
+<p>The ECCV 2022 workshop on Uncertainty Quantification for Computer Vision will consider recent advances in methodology and applications of uncertainty quantification in computer vision. Prospective authors are invited to submit papers on relevant algorithms and applications including, but not limited to:</p>
 
+<ul>
+  <li>Applications of uncertainty quantification</li>
+  <li>Failure prediction (e.g., OOD detection)</li>
+  <li>Robustness in CV</li>
+  <li>Safety critical applications in CV</li>
+  <li>Domain-shift in CV</li>
+  <li>Probabilistic deep models</li>
+  <li>Deep probabilistic models</li>
+  <li>Deep ensemble uncertainty</li>
+  <li>Connections between NNs and GPs</li>
+  <li>Incorporating explicit prior knowledge in deep learning</li>
+  <li>Computational aspects and real-time probabilistic inference</li>
+  <li>Output ambiguity, multi-modality and diversity</li>
+</ul>
+
+<p>Papers will be peer-reviewed, and accepted papers are presented at the workshop and included in the ECCV Workshop Proceedings. <a href="/cfp">See submission instructions</a>.</p>
 
 <h2>Important Dates</h2>
 
-
+<ul>
+  <li>Submission deadline: **TBA**</li>
+  <li>Notification of acceptance: **TBA**</li>
+  <li>Camera-ready deadline: **July 17, 2022**</li>
+</ul>
 
 <h2>Organizers</h2>
 
+<!--
 <div class="row justify-content-center people-widget text-center">
-
-{% for item in site.data.organizers  %}
 
 <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2">
   <a href="{{ item.url }}">
   <div class="team-member">
-    <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar avatar-circle" alt="">
+    <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar avatar-circle" alt=""></br>
     <strong>{{ item.name }}</strong>
     <p class="text-muted">{{ item.affiliation }}</p>
   </div>
   </a>
 </div>
 
+</div>
+-->
+
+
+<ul>
+
+{% for item in site.data.organizers  %}
+
+  <li><a href="{{ item.url }}"><strong>{{ item.name }}</strong></a>, {{ item.affiliation }}</li>
+
 {% endfor %}
 
-</div>
+</ul>
+
+
+
 
