@@ -43,10 +43,10 @@
           {% endif %}
           {% if item.subfolderitems %}
             <li class="nav-item dropdown {{ class }}">
-            <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" class="nav-link dropdown-toggle" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span></a>
+            <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link dropdown-toggle" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {% for subitem in item.subfolderitems %}
-              <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a>
+              <a class="dropdown-item" href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a>
             {% endfor %}
             </div>
             </li>
@@ -55,7 +55,7 @@
                 {% if item.disabled %}
                 <a class="nav-link" "#">{{ item.title }}</a>
                 {% else %}
-                <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
               </li>
             {% endif %}
