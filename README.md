@@ -1,6 +1,6 @@
 # Web pages for the 'Workshop on Uncertainty Quantification for Computer Vision'
 
-This web page uses Jekyll through GitHub pages which renders static HTML pages that are accessible at [https://aaltoml.github.io/apml/](https://aaltoml.github.io/apml/). The layout should auto-support various screen sizes etc. through bootstrap. 
+This web page uses Jekyll through GitHub pages which renders static HTML pages that are accessible at [https://uncv2022.github.io/](https://uncv2022.github.io/). The layout should auto-support various screen sizes etc. through bootstrap. 
 
 ## Maintaining / Updating
 
