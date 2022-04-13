@@ -33,6 +33,15 @@ Submission site: **TBA**
 
 ## Important Dates
 
-* Submission deadline: **TBA**
-* Notification of acceptance: **TBA**
-* Camera-ready deadline: **July 17, 2022**
+All times are end of day AOE.
+
+<ul>
+
+{% for item in site.deadlines  %}
+
+  <li>{{ item.item }}: <strong>{{ item.date }}</strong></li>
+
+{% endfor %}
+
+</ul>
+

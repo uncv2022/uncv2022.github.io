@@ -66,10 +66,16 @@ layout: default
 
 <h2>Important Dates</h2>
 
+<p>All times are end of day AOE.</p>
+
 <ul>
-  <li>Submission deadline: **TBA**</li>
-  <li>Notification of acceptance: **TBA**</li>
-  <li>Camera-ready deadline: **July 17, 2022**</li>
+
+{% for item in site.deadlines  %}
+
+  <li>{{ item.item }}: <strong>{{ item.date }}</strong></li>
+
+{% endfor %}
+
 </ul>
 
 <h2>Organizers</h2>
