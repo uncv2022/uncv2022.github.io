@@ -15,8 +15,8 @@ exclude:
 title: "Workshop on Uncertainty Quantification for Computer Vision"
 subtitle: "ECCV 2022 Workshop"
 
-caption: "UNCV Workshop @ ECCV 2022"
-description: "ECCV 2022 Workshop on Uncertainty Quantification for Computer Vision." 
+shorttitle: "UNCV Workshop @ ECCV 2022"
+information: "ECCV 2022 Workshop on Uncertainty Quantification for Computer Vision." 
 
 organizers: "UNCV Organizers"
 
