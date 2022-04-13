@@ -1,0 +1,21 @@
+
+baseurl: "https://aaltoml.github.io/apml"
+color-scheme: "#1a2090" #the scheme can be any HEX code like "#334279"
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache
+
+title: "Workshop on Uncertainty Quantification for Computer Vision"
+description: "ECCV 2022" 
+
+organizers: "UQCV Organizers"
+
+
+

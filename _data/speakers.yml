@@ -1,14 +1,16 @@
-speakers:
-  - name: Yarin Gal
-    url: http://www.cs.ox.ac.uk/people/yarin.gal/website/
-    affiliation: University of Oxford, UK
-    title: ""
-    img: yarin-gal.jpg
-    abstract: TBA
+- name: Yarin Gal
+  url: http://www.cs.ox.ac.uk/people/yarin.gal/website/
+  affiliation: University of Oxford, UK
+  img: yarin-gal.jpg
+  abstract: TBA
   
-  - name: Alex Kendall
-    url: https://alexgkendall.com/
-    affiliation: Wayve
-    title: ""
-    abstract: TBA
-    img: alex-kendall.jpg
+- name: Alex Kendall
+  url: https://alexgkendall.com/
+  affiliation: Wayve
+  img: alex-kendall.jpg
+  abstract: TBA
+
+- name: TBA
+  url: #
+  affiliation: ""
+  abstract: TBA
