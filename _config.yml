@@ -13,7 +13,7 @@ exclude:
   - .sass-cache
 
 title: "Workshop on Uncertainty Quantification for Computer Vision"
-subtitle: "ECCV 2022 Workshop"
+subtitle: "[ECCV 2022 Workshop](https://eccv2022.ecva.net/)"
 
 shorttitle: "UNCV Workshop @ ECCV 2022"
 information: "ECCV 2022 Workshop on Uncertainty Quantification for Computer Vision." 
