@@ -4,7 +4,18 @@ This web page uses Jekyll through GitHub pages which renders static HTML pages t
 
 ## Maintaining / Updating
 
-All content is decoupled from the HTML/layout and should be edited in `_config.yml` and `_data/talks.yml`. Speaker photos should go in `assets/speakers/` if available.
+Content is somewhat decoupled from the HTML/layout and should be edited as follows
+
+* Basic information in `_config.yml` 
+* Deadlines (shown on main page and CfP) in `_config.yml` 
+* Speaker information in `_data/speakers.yml`
+* Speaker photos should go in `assets/speakers/` if available.
+* Organizer information in `_data/organizers.yml`
+* Navigation meny items (also enable/disable) in `_data/menu.yml`
+* Main page content (as HTML) in `index.html`
+* Sub-page content (as Markdown) in `_pages/`
+
+The page is built and deployed through GitHub pages automatically on pushing to the repo.
 
 ## Previewing / Running locally
 
