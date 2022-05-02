@@ -17,9 +17,12 @@ Content is somewhat decoupled from the HTML/layout and should be edited as follo
 
 The page is built and deployed through GitHub pages automatically on pushing to the repo.
 
+## Installation
+You will need to install Jekyll on your machine first. See [jekyllrb.com](https://jekyllrb.com/docs/installation/) for detailed guides on installing Ruby, RubyGems and Jekyll on a specific operating system. 
+
 ## Previewing / Running locally
 
-You will need to install Jekyll on your machine first. After that you can clone this repository, checkout the `gh-pages` branch, and run the following:
+ After that you can clone this repository, checkout the `gh-pages` branch, and run the following:
 
     jekyll serve --baseurl ""
     
