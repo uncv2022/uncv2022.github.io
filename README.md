@@ -20,6 +20,11 @@ The page is built and deployed through GitHub pages automatically on pushing to 
 ## Installation
 You will need to install Jekyll on your machine first. See [jekyllrb.com](https://jekyllrb.com/docs/installation/) for detailed guides on installing Ruby, RubyGems and Jekyll on a specific operating system. 
 
+**Note:** I had to do the following additional steps to get Jekyll working:
+1. Adjust the `.zshrc` entries to the actually installed Ruby version
+2. Install additional packages with the GEM installer: `gem install github-pages`, and `gem install webrick`.
+
+
 ## Previewing / Running locally
 
  After that you can clone this repository, checkout the `gh-pages` branch, and run the following:
