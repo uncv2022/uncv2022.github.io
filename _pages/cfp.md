@@ -43,7 +43,7 @@ All submissions will be peer-reviewed, and accepted submissions will be presente
 
 
 All submissions will be handled electronically via OpenReview.<br/>
-Submission site: **TBA**
+Submission site: [OpenReview UNCV 2022 submission site](https://openreview.net/group?id=thecvf.com/ECCV/2022/Workshop/UNCV)
 
 
 ## Important Dates
