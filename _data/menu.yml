@@ -6,7 +6,7 @@
 
 - title: Accepted Papers
   url: /papers
-  disabled: false
+  disabled: true
 
 - title: Program
   url: /program
