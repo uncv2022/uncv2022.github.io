@@ -10,7 +10,7 @@ title: Accepted Papers
 {% for item in site.data.papers  %}
 {% if item.type == "full" %}
   <li><strong>{{ item.title }}</strong><br/>
-  <small><i>{{ item.authors }}</small></i></li>
+  <small><i>{{ item.authors }}</i></small></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -21,7 +21,7 @@ title: Accepted Papers
 {% for item in site.data.papers  %}
 {% if item.type == "abstract" %}
   <li><strong>{{ item.title }}</strong><br/>
-  <small><i>{{ item.authors }}</small></i></li>
+  <small><i>{{ item.authors }}</i></small></li>
 {% endif %}
 {% endfor %}
 </ul>
