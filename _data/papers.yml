@@ -1,0 +1,35 @@
+- title: Localization Uncertainty Estimation for Anchor-Free Object Detection
+  authors: Youngwan Lee, Joong-Won Hwang, Hyung-Il Kim, Kimin Yun, Yongjin Kwon, Yuseok Bae, Sung Ju Hwang
+  type: full
+
+- title: Identifying Out-of-Distribution Samples in Real-Time for Safety-Critical 2D Object Detection with Margin Entropy Loss
+  authors: Yannik Blei, Nicolas Jourdan, Nils Gählert
+  type: abstract
+
+- title: "Variational Depth Networks: Uncertainty-Aware Monocular Self-Supervised Depth Estimation"
+  authors: Georgi Dikov, Joris van Vugt
+  type: full
+
+- title: "Unsupervised Joint Image Transfer and Uncertainty Quantification using Patch Invariant Networks"
+  authors: Christoph Angermann, Markus Haltmeier, Ahsan Raza Siyal
+  type: full
+
+- title: "On the Usefulness of Deep Ensemble Diversity for Out-of-Distribution Detection"
+  authors: Guoxuan Xia, Christos Bouganis
+  type: abstract
+
+- title: "Uncertainty Quantification using Query-Based Object Detectors"
+  authors: Meet P. Vadera, Colin Samplawski, Benjamin Marlin
+  type: full
+
+- title: "Lossy Image Compression with Conditional Diffusion Models"
+  authors: Ruihan Yang, Stephan Mandt
+  type: abstract
+
+- title: "Towards Open Set 3D Learning: A Benchmark on Object Point Clouds"
+  authors: Antonio Alliegro, Francesco Cappio Borlino, Tatiana Tommasi
+  type: abstract
+
+- title: "Reliable Visual Question Answering: Abstain Rather Than Answer Incorrectly"
+  authors: Spencer Whitehead, Suzanne Petryk, Vedaad Shakib, Joseph E. Gonzalez, Trevor Darrell, Anna Rohrbach, Marcus Rohrbach
+  type: abstract
